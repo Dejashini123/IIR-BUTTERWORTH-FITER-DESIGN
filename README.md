@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 ## PROGRAM (LPF):
+```
 clc;
 clear;
 
@@ -36,11 +37,13 @@ xlabel("Frequency (Hz)");
 ylabel("Magnitude (dB)");
 title("Butterworth Low Pass Filter (Order 2) — fc = 1500 Hz");
 xgrid();
+```
 
 
 
 
 ## PROGRAM (HPF): 
+```
 clc;
 clear;
 
@@ -76,6 +79,7 @@ xgrid();
 xset("color", 2); // red color
 plot([fc fc], [-80 5], '--');
 xset("color", 1); // reset to black
+```
 
 
 
